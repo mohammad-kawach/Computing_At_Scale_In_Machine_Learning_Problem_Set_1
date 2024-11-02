@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Command for 1a
-wget https://schlieplab.org/Static/Teaching/DIT852/private-healthcarepercent-gdp.csv -O healthcare.csv
+wget https://schlieplab.org/Static/Teaching/DIT852/private-healthcare-percent-gdp.csv -O healthcare.csv
 
 # Command for 1b
 tail -n +2 healthcare.csv | grep -v "ABW" > healthcare_no_header.csv
